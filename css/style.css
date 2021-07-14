@@ -1,5 +1,17 @@
 body
 {
-    text-align: center;
+    background-color: honeydew;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contenedor{
+    width: 70%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 1px solid gray;
+    border-radius: .3rem;
+}
+.contenedor footer{
+    font-size: 1.2rem;
+    color: rgb(212, 208, 139);
 }
