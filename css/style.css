@@ -13,6 +13,7 @@ body
     -webkit-box-shadow: 1px 3px 10px 0px #000000;
     box-shadow: 1px 3px 10px 0px #000000;
 }
+
 .cabecera {
     padding: 1rem;
     color: white;
@@ -26,10 +27,17 @@ header h1{
     padding: 0 1.5rem;
 }
 
-.contenedor footer{
-    font-size: 1.2rem;
-    color: rgba(47, 102, 255, 0.459);
-    text-align: right;
-    padding: .5rem;
+.contenedor footer {
+    font-size: 1.5rem;
+    color: rgb(212, 193, 230);
+    text-align: center;
+    padding: 1rem;
+    background-color: #552488;
 }
 
+.leyenda-footer {
+    display: block;
+    font-size: .7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: .5rem;
+}
