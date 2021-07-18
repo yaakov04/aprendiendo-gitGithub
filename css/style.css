@@ -1,28 +1,36 @@
-body
-{
+body {
     background-color: honeydew;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.contenedor{
+.contenedor {
     width: 70%;
     margin: 0 auto;
     border: 1px solid gray;
     border-radius: .3rem;
 }
+
 .cabecera {
     background-color: rgb(47, 102, 255);
     padding: .5rem;
     color: white;
 }
-.contenedor p{
+
+.contenedor p {
     padding: 1.5rem;
 }
 
-.contenedor footer{
-    font-size: 1.2rem;
-    color: rgba(47, 102, 255, 0.459);
-    text-align: right;
-    padding: .5rem;
+.contenedor footer {
+    font-size: 1.5rem;
+    color: rgb(212, 193, 230);
+    text-align: center;
+    padding: 1rem;
+    background-color: blueviolet;
 }
 
+.leyenda-footer {
+    display: block;
+    font-size: .7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: .5rem;
+}
