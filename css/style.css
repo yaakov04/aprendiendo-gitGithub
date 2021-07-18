@@ -1,22 +1,29 @@
 body
 {
-    background-color: honeydew;
+    background-color: #b981ea;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .contenedor{
+    color:white;
     width: 70%;
     margin: 0 auto;
-    border: 1px solid gray;
-    border-radius: .3rem;
+    background-color:#784f9c;
+    border-radius: .4rem;
+    -webkit-box-shadow: 1px 3px 10px 0px #000000;
+    box-shadow: 1px 3px 10px 0px #000000;
 }
 .cabecera {
-    background-color: rgb(47, 102, 255);
-    padding: .5rem;
+    padding: 1rem;
     color: white;
+    font-size:2rem;
+}
+header h1{
+  margin-left:1rem;
 }
 .contenedor p{
-    padding: 1.5rem;
+
+    padding: 0 1.5rem;
 }
 
 .contenedor footer{
